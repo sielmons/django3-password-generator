@@ -1,0 +1,32 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<div class="container text-center">
+<h1>moncef password generator</h1>
+<form action="password">
+    <select name="length">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+
+    </select>
+    <br>
+    <input type="checkbox" name="uppercase">uppercase
+    <br>
+    <input type="checkbox" name="numbers">numbers
+    <br>
+    <input type="checkbox" name="specials">specials
+    <br>
+    <input type="submit" value="generate password" class="btn btn-primary">
+</form>
+<br>
+<br>
+<a href="{% url 'about' %}">about</a>
+
+</div> 
